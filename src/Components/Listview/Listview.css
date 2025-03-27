@@ -1,0 +1,189 @@
+.listContainer {
+    padding-left: 46px;
+}
+
+.horizontalBar {
+    width: 1330px;
+    top: 236px;
+    left: 32px;
+    border: 1px solid #0000001A
+}
+
+.listHeader {
+    width: 1053px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listHeader p {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+/*todo task css*/
+.todoTask {
+    margin-top: 50px;
+    width: 1331px;
+    height: 376px;
+}
+
+.todoHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 1330px;
+    height: 46px;
+    border: Mixed solid #FAC3FF;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: #FAC3FF;
+}
+
+.todoHeader p {
+    padding-left: 50px;
+}
+
+.todoHeader h5 {
+    padding-right: 50px;
+}
+
+/*taskList css*/
+.taskContainer {
+    width: 1330px;
+    height: auto;
+    border-width: 1px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: #F1F1F1;
+}
+
+.createTask {
+    width: 1266px;
+    height: 41px;
+    margin-left: 67px;
+}
+
+.createTask button {
+    width: 94px;
+    height: 20px;
+    margin-top: 12.45px;
+    margin-left: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+/*from css*/
+.form {
+    width: 1052px;
+    height: 100px;
+    margin-left: 67px;
+}
+
+.formField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Mulish;
+    margin-top: 19.64px;
+}
+
+.formField input {
+    width: 67px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3.6%;
+    background: transparent;
+    color: #00000080;
+    border: none;
+}
+
+.calendar-container {
+    position: relative;
+    display: inline-block;
+}
+
+.calendar-button {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #00000033;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    cursor: pointer;
+    color: #00000099;
+
+}
+
+.hidden-datepicker {
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    z-index: 1000;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.taskStatus,
+.taskCategory {
+    position: relative;
+    display: inline-block;
+}
+
+.taskStatus select,
+.taskCategory select {
+    position: absolute;
+    width: 150px;
+    background: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    z-index: 3;
+    display: block;
+}
+
+.formActions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.addBtn {
+    width: 84px;
+    height: 30px;
+    border: none;
+    border-radius: 60px;
+    background: #7B1984;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    width: 90px;
+    height: 30px;
+    border-radius: 60px;
+    border: none;
+    background: #F4F4F4;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    cursor: pointer;
+
+}

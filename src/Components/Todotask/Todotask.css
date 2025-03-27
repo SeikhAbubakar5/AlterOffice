@@ -1,0 +1,37 @@
+.taskItem{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menuButton {
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .popupMenu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+  
+  .popupMenu button {
+    background: none;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .popupMenu button:hover {
+    background: lightgray;
+  }
+  

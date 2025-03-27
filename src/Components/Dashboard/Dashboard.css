@@ -1,0 +1,75 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 58px 32px;
+}
+
+.headerIcon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerIcon img {
+    width: 29px;
+    height: 29px;
+}
+
+.headerIcon p {
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    width: 125px;
+    height: 34px;
+}
+
+.buttonView {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn1 {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.userInfo img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 0.4px solid #00000033
+}
+
+.userInfo p {
+    width: 61px;
+    height: 22px;
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    color: #00000099;
+    margin-bottom: 40px;
+}
+.logout button{
+    width: 108px;
+    height: 40px;
+    border: 1px solid #7B198426;
+    border-radius: 12px;
+    background: #FFF9F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
